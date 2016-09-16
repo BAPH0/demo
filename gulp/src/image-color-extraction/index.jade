@@ -1,0 +1,79 @@
+
+//- テンプレート継承
+extends /assets/_layouts/demo
+
+//- meta設定
+//- block vars
+//-   - var pageID = "top"
+
+//- _data.json参照してmeta-head呼び出し
+block meta-head
+  +meta-head(meta.imagecolorextraction)
+
+//- ページ個別のCSS
+block append style
+  link(rel="stylesheet", href="#{path.css}image-color-extraction/style.css")
+
+//- ページ個別のJS
+block append script
+  script(src="https://code.jquery.com/jquery-2.2.4.min.js", integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=", crossorigin="anonymous")
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r16/Stats.min.js")
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5.1/dat.gui.min.js")
+  script(src="/assets/js/image-color-extraction/rgbaster.js", type="text/javascript")
+  script(src="/assets/js/image-color-extraction/script.js", type="text/javascript")
+
+//- ここからコンテンツ部分を記述
+block contents
+
+  section
+    ul
+      li
+        div.pic: img(src="/assets/img/image-color-extraction/1.jpg", alt="")
+        div.msk
+        div.txt
+      li
+        div.pic: img(src="/assets/img/image-color-extraction/2.jpg", alt="")
+        div.msk
+        div.txt
+      li
+        div.pic: img(src="/assets/img/image-color-extraction/3.jpg", alt="")
+        div.msk
+        div.txt
+      li
+        div.pic: img(src="/assets/img/image-color-extraction/4.jpg", alt="")
+        div.msk
+        div.txt
+    ul
+      li
+        div.pic: img(src="/assets/img/image-color-extraction/5.jpg", alt="")
+        div.msk
+        div.txt
+      li
+        div.pic: img(src="/assets/img/image-color-extraction/6.jpg", alt="")
+        div.msk
+        div.txt
+      li
+        div.pic: img(src="/assets/img/image-color-extraction/7.jpg", alt="")
+        div.msk
+        div.txt
+      li
+        div.pic: img(src="/assets/img/image-color-extraction/8.jpg", alt="")
+        div.msk
+        div.txt
+    ul
+      li
+        div.pic: img(src="/assets/img/image-color-extraction/9.jpg", alt="")
+        div.msk
+        div.txt
+      li
+        div.pic: img(src="/assets/img/image-color-extraction/10.jpg", alt="")
+        div.msk
+        div.txt
+      li
+        div.pic: img(src="/assets/img/image-color-extraction/11.jpg", alt="")
+        div.msk
+        div.txt
+      li
+        div.pic: img(src="/assets/img/image-color-extraction/12.jpg", alt="")
+        div.msk
+        div.txt

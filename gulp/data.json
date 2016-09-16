@@ -3,30 +3,29 @@
   "themecolor": "#ffffff",
   "viewport": "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no",
   "path": {
-    "domain": "http://hoge.jp",
-    "root": "/",
+    "domain": "http://https://baph0.github.io",
+    "root": "/demo/",
     "img": "/assets/img/",
     "css": "/assets/css/",
     "js": "/assets/js/"
   },
   "meta": {
     "def": {
-      "title": "HOGE",
-      "desc": "HOGE Description.",
-      "keywords": "",
+      "title": "DEMO",
+      "desc": "DEMO SITE.",
+      "keywords": "BAPHO, DEMO",
       "author": "BAPHO",
       "robots": "index, follow",
       "oglocale": "ja_JP",
-      "ogtype": "website",
-      "ogsitename": "HOGE",
+      "ogtype": "article",
+      "ogsitename": "DEMO",
       "ogurl": "",
       "ogimage": "/assets/img/meta/ogp.png",
-      "clipicon": "/assets/img/meta/clipicon.png",
-      "favicon": "/assets/img/meta/favicon.ico"
+      "clipicon": "/assets/img/meta/clipicon.png"
     },
-    "underpage": {
-      "title": "UnderPage | HOGE",
-      "ogurl": "/underpage/"
+    "imagecolorextraction": {
+      "title": "DEMO | image-color-extraction",
+      "ogurl": "/image-color-extraction/"
     }
   }
 }
