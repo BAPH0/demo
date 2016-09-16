@@ -5,7 +5,7 @@ $(document).ready ->
 
   $("li").each (i,o) =>
     len = i + 1
-    src = "/assets/img/image-color-extraction/#{len}.jpg"
+    src = "/demo/assets/img/image-color-extraction/#{len}.jpg"
     RGBaster.colors src,
       # paletteSize: 30
       exclude: [ 'rgb(0,0,0)', 'rgb(255,255,255)' ]

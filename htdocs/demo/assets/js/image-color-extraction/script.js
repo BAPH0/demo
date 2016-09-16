@@ -4,7 +4,7 @@
       return function(i, o) {
         var len, src;
         len = i + 1;
-        src = "/assets/img/image-color-extraction/" + len + ".jpg";
+        src = "/demo/assets/img/image-color-extraction/" + len + ".jpg";
         return RGBaster.colors(src, {
           exclude: ['rgb(0,0,0)', 'rgb(255,255,255)'],
           success: function(payload) {

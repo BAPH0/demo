@@ -3,11 +3,11 @@
   "themecolor": "#ffffff",
   "viewport": "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no",
   "path": {
-    "domain": "http://https://baph0.github.io",
+    "domain": "http://baph0.github.io",
     "root": "/demo/",
-    "img": "/assets/img/",
-    "css": "/assets/css/",
-    "js": "/assets/js/"
+    "img": "/demo/assets/img/",
+    "css": "/demo/assets/css/",
+    "js": "/demo/assets/js/"
   },
   "meta": {
     "def": {
@@ -20,12 +20,12 @@
       "ogtype": "article",
       "ogsitename": "DEMO",
       "ogurl": "",
-      "ogimage": "/assets/img/meta/ogp.png",
-      "clipicon": "/assets/img/meta/clipicon.png"
+      "ogimage": "/demo/assets/img/meta/ogp.png",
+      "clipicon": "/demo/assets/img/meta/clipicon.png"
     },
     "imagecolorextraction": {
       "title": "DEMO | image-color-extraction",
-      "ogurl": "/image-color-extraction/"
+      "ogurl": "image-color-extraction/"
     }
   }
 }
